@@ -3,21 +3,15 @@ var VALID_HANDS = ["rock", "scissors", "paper"]
 function randomHand(){
 	var num = Math.floor(Math.random() * 3)
 	return num
-	
-	
 }
 
 
 function startGame(hand){
-	console.log("game started")
-	
+
 	var computer = randomHand()
 	var player = VALID_HANDS.indexOf(hand)
-	
-	console.log("computer: ", computer , "player ", player)
+
 	if(computer === player){alert("It's a draw!")}
-	
-	// 0 , 1, 2
 	
 	if(computer == 0 && player == 1){
 		alert("rock beats scissors")

@@ -1,4 +1,4 @@
-# paper-rock-scissors
-code example - I built the fun game paper, rock scissors.
+# rock-paper-scissors
+code example - I built the fun game rock paper scissors.
 
 
